@@ -62,14 +62,4 @@ SafeCounter ที่รองรับ 1,000 Goroutine เรียกใช้
 
 REST API ด้วย `net/http` รองรับ POST `/hello` และตอบกลับเป็น JSON
 
-```bash
-# ทดสอบ API
-curl -X POST http://localhost:8080/hello \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Somchai"}'
-
-# Response
-# {"message": "Hello, Somchai"}
-```
-
 ---
